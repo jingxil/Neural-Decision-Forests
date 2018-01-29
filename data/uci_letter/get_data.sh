@@ -1,0 +1,1 @@
+curl -o letter-recognition.data http://archive.ics.uci.edu/ml/machine-learning-databases/letter-recognition/letter-recognition.data
