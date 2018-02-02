@@ -37,6 +37,5 @@ Not spending much time on picking hyperparameters and without bells and whistles
 | UCI_Letter | 0.9507 | NA |
 | UCI_Yeast | 0.6031 | NA |
 
-
-
+By adding the nonlinearity in the routing function, the accuraries can reach 0.6502 and 0.9753 respectively on the UCI_Yeast and UCI_Letter.
 
