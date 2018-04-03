@@ -14,6 +14,9 @@ MNIST, UCI_Adult, UCI_Letter and UCI_Yeast datasets are available. For datasets 
 # Requirements
 - Python 3.x
 - PyTorch 0.3.x
+- numpy
+- sklearn
+
 
 # Usage
  ```
@@ -39,3 +42,5 @@ Not spending much time on picking hyperparameters and without bells and whistles
 
 By adding the nonlinearity in the routing function, the accuraries can reach 0.6502 and 0.9753 respectively on the UCI_Yeast and UCI_Letter.
 
+# Note
+Some people may experience the 'loss is NaN' situation which could be caused by the output probability being zero. Please make sure you have normalized your data and used a large enough tree size and depth. In the case that you want to stick with your tree setting, a workaround could be to clamp the output value. 
