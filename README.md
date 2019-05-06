@@ -13,7 +13,7 @@ MNIST, UCI_Adult, UCI_Letter and UCI_Yeast datasets are available. For datasets 
 
 # Requirements
 - Python 3.x
-- PyTorch 0.3.x
+- PyTorch >= 1.0.0
 - numpy
 - sklearn
 
