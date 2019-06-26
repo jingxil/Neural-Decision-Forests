@@ -105,7 +105,7 @@ def train(model, optim, db, opt):
     for epoch in range(1, opt.epochs + 1):
         # Update \Pi
         if not opt.jointly_training:
-            print("Epcho %d : Two Stage Learing - Update PI" % (epoch))
+            print("Epoch %d : Two Stage Learing - Update PI" % (epoch))
             # prepare feats
             cls_onehot = torch.eye(opt.n_class)
             feat_batches = []
